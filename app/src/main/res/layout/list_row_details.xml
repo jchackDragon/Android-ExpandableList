@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingLeft="40dp"
+    tools:context=".MainActivity" >
+
+        <CheckBox
+            android:id="@+id/check_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dip"
+            android:text="dsdfasdf"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+
+</LinearLayout>
